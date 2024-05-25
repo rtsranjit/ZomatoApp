@@ -14,6 +14,14 @@
 		99D15F042C01C52600D93C2E /* ZomatoAppSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F032C01C52600D93C2E /* ZomatoAppSTests.swift */; };
 		99D15F0E2C01C52600D93C2E /* ZomatoAppSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F0D2C01C52600D93C2E /* ZomatoAppSUITests.swift */; };
 		99D15F102C01C52600D93C2E /* ZomatoAppSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F0F2C01C52600D93C2E /* ZomatoAppSUITestsLaunchTests.swift */; };
+		99D15F1F2C01CB7900D93C2E /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F1E2C01CB7900D93C2E /* OTPView.swift */; };
+		99D15F212C01D24B00D93C2E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F202C01D24B00D93C2E /* HomeView.swift */; };
+		99D15F232C01D48B00D93C2E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F222C01D48B00D93C2E /* MainTabView.swift */; };
+		99D15F272C01DD3600D93C2E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F262C01DD3600D93C2E /* CardView.swift */; };
+		99D15F292C01E1FA00D93C2E /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F282C01E1FA00D93C2E /* FoodListView.swift */; };
+		99D15F2D2C01E81700D93C2E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F2C2C01E81700D93C2E /* Color.swift */; };
+		99D15F312C01EF3E00D93C2E /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F302C01EF3E00D93C2E /* RestaurantDetailView.swift */; };
+		99D15F332C01F06F00D93C2E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D15F322C01F06F00D93C2E /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		99D15F092C01C52600D93C2E /* ZomatoAppSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZomatoAppSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D15F0D2C01C52600D93C2E /* ZomatoAppSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZomatoAppSUITests.swift; sourceTree = "<group>"; };
 		99D15F0F2C01C52600D93C2E /* ZomatoAppSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZomatoAppSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99D15F1E2C01CB7900D93C2E /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		99D15F202C01D24B00D93C2E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		99D15F222C01D48B00D93C2E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		99D15F262C01DD3600D93C2E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		99D15F282C01E1FA00D93C2E /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		99D15F2C2C01E81700D93C2E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		99D15F302C01EF3E00D93C2E /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		99D15F322C01F06F00D93C2E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				99D15EF22C01C52500D93C2E /* ZomatoAppSApp.swift */,
-				99D15EF42C01C52500D93C2E /* ContentView.swift */,
+				99D15F2E2C01E82C00D93C2E /* Extensions */,
+				99D15F2F2C01E83E00D93C2E /* Views */,
 				99D15EF62C01C52600D93C2E /* Assets.xcassets */,
 				99D15EF82C01C52600D93C2E /* Preview Content */,
 			);
@@ -125,6 +142,29 @@
 				99D15F0F2C01C52600D93C2E /* ZomatoAppSUITestsLaunchTests.swift */,
 			);
 			path = ZomatoAppSUITests;
+			sourceTree = "<group>";
+		};
+		99D15F2E2C01E82C00D93C2E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99D15F2C2C01E81700D93C2E /* Color.swift */,
+				99D15F322C01F06F00D93C2E /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99D15F2F2C01E83E00D93C2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99D15EF42C01C52500D93C2E /* ContentView.swift */,
+				99D15F1E2C01CB7900D93C2E /* OTPView.swift */,
+				99D15F222C01D48B00D93C2E /* MainTabView.swift */,
+				99D15F202C01D24B00D93C2E /* HomeView.swift */,
+				99D15F282C01E1FA00D93C2E /* FoodListView.swift */,
+				99D15F262C01DD3600D93C2E /* CardView.swift */,
+				99D15F302C01EF3E00D93C2E /* RestaurantDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D15F232C01D48B00D93C2E /* MainTabView.swift in Sources */,
 				99D15EF52C01C52500D93C2E /* ContentView.swift in Sources */,
+				99D15F332C01F06F00D93C2E /* View.swift in Sources */,
+				99D15F212C01D24B00D93C2E /* HomeView.swift in Sources */,
 				99D15EF32C01C52500D93C2E /* ZomatoAppSApp.swift in Sources */,
+				99D15F292C01E1FA00D93C2E /* FoodListView.swift in Sources */,
+				99D15F312C01EF3E00D93C2E /* RestaurantDetailView.swift in Sources */,
+				99D15F2D2C01E81700D93C2E /* Color.swift in Sources */,
+				99D15F272C01DD3600D93C2E /* CardView.swift in Sources */,
+				99D15F1F2C01CB7900D93C2E /* OTPView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
